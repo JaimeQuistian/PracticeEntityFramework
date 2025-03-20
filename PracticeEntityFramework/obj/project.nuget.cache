@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wIgQS968Qog=",
+  "dgSpecHash": "AIBVmqUN4ms=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jtoma\\source\\repos\\JaimeQuistian\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework.csproj",
+  "projectFilePath": "C:\\Users\\jtoma\\Source\\Repos\\JaimeQuistian\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jtoma\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\jtoma\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

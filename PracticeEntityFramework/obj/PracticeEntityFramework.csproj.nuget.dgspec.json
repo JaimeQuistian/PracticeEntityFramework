@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jtoma\\source\\repos\\JaimeQuistian\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework.csproj": {}
+    "C:\\Users\\jtoma\\Source\\Repos\\JaimeQuistian\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jtoma\\source\\repos\\JaimeQuistian\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework.csproj": {
+    "C:\\Users\\jtoma\\Source\\Repos\\JaimeQuistian\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jtoma\\source\\repos\\JaimeQuistian\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework.csproj",
+        "projectUniqueName": "C:\\Users\\jtoma\\Source\\Repos\\JaimeQuistian\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework.csproj",
         "projectName": "PracticeEntityFramework",
-        "projectPath": "C:\\Users\\jtoma\\source\\repos\\JaimeQuistian\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework.csproj",
+        "projectPath": "C:\\Users\\jtoma\\Source\\Repos\\JaimeQuistian\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework.csproj",
         "packagesPath": "C:\\Users\\jtoma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jtoma\\Source\\Repos\\JaimeQuistian\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework\\obj\\",
+        "outputPath": "C:\\Users\\jtoma\\source\\repos\\JaimeQuistian\\PracticeEntityFramework\\PracticeEntityFramework\\PracticeEntityFramework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jtoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
