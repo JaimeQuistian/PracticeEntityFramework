@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PracticeEntityFramework.Interface;
 using PracticeEntityFramework.Model;
-using System;
 
 namespace PracticeEntityFramework.Data
 {
@@ -12,19 +11,19 @@ namespace PracticeEntityFramework.Data
         {
             _context = context;
         }
-        public async Task<Location> GetLocationAsync(short id) => await _context.Location.FindAsync(id);
-        public async Task<IEnumerable<Location>> GetLocationsAsync() => await _context.Location.Take(100).ToListAsync();
+        public async Task<IEnumerable<Location>> GetLocationsAsync()
+            => await _context.Locations.Take(100).ToListAsync();
 
-        public async Task<Location> CreateCustomerAsync(Location location)
+        public async Task<Location> GetLocationByIdAsync(short id) 
+            => await _context.Locations.FindAsync(id);
+        
+
+        public async Task<Location> AddLocationAsync(Location location)
         {
-            _context.Location.Add(location);
+            _context.Locations.Add(location);
             await _context.SaveChangesAsync();
             return location;
         }
-    }
-
-    public interface ICustomerRepository
-    {
     }
 }
 
