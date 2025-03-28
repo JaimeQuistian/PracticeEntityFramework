@@ -58,7 +58,7 @@ namespace PracticeEntityFramework.Data
             throw new NotImplementedException();
         }
 
-        public async Task<bool> DeleteLocationByIdAsync(int id)
+        public async Task<bool> DeleteLocationByIdAsync(short id)
         {
             var location = await _context.Locations.FindAsync(id);
             if (location == null)
@@ -74,6 +74,11 @@ namespace PracticeEntityFramework.Data
         private bool CustomerExists(int id)
         {
             return _context.Locations.Any(e => e.LocationId == id);
+        }
+
+        public Task<bool> DeleteLocationByIdAsync(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -12,7 +12,7 @@ namespace PracticeEntityFramework.Interface
 
         Task<Location> CreateLocationAsync(Location location);
         Task<bool> UpdateLocationAsync(Location location);
-        Task<bool> DeleteLocationByIdAsync(int id);
+        Task<bool> DeleteLocationByIdAsync(short id);
 
     }
 }
